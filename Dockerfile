@@ -1,4 +1,7 @@
 FROM arm64v8/debian:jessie
+RUN [ "/usr/bin/qemu-arm-static", "apt-get", "update" ]
+RUN [ "/usr/bin/qemu-arm-static", "apt-get", "install", "python-pip" ]
+RUN [ "/usr/bin/qemu-arm-static", "pip", "install", "virtualenv" ]  
 
 RUN echo "deb http://ftp.de.debian.org/debian sid main" >> /etc/apt/sources.list
 
