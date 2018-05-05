@@ -1,4 +1,3 @@
-# This is a test, as local builds are not working... source: https://raw.githubusercontent.com/devcomb/dockerfiles/master/compose-arm64/Dockerfile.arm64v8
 FROM arm64v8/debian:jessie
 
 RUN echo "deb http://ftp.de.debian.org/debian sid main" >> /etc/apt/sources.list
