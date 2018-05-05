@@ -1,4 +1,4 @@
-FROM arm64v8/debian:jessie
+FROM arm64v8/ubuntu:trusty
 RUN [ "/usr/bin/qemu-arm-static", "apt-get", "update" ]
 RUN [ "/usr/bin/qemu-arm-static", "apt-get", "install", "python-pip" ]
 RUN [ "/usr/bin/qemu-arm-static", "pip", "install", "virtualenv" ]  
