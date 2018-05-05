@@ -1,2 +1,3 @@
 # docker_arm
-arm test images
+This is a test, as local builds are not working... 
+source: https://raw.githubusercontent.com/devcomb/dockerfiles/master/compose-arm64/Dockerfile.arm64v8
